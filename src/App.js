@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import MultiActionAreaCard from "./components/MultiActionAreaCard";
 
 const Div = styled.div`
   display: flex;
@@ -10,7 +11,12 @@ const Div = styled.div`
 `;
 
 function App() {
-  return <Div>메인페이지</Div>;
+  return (
+    <Div>
+      메인페이지
+      <MultiActionAreaCard />
+    </Div>
+  );
 }
 
 export default App;
